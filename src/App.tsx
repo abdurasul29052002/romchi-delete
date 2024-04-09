@@ -14,7 +14,7 @@ function App() {
   const form = useForm<z.infer<typeof userSchema>>({
     resolver: zodResolver(userSchema),
     defaultValues: {
-      phoneNumber: "",
+      phoneNumber: "+998",
       smsCode: ""
     }
   })

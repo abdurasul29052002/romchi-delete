@@ -1,5 +1,6 @@
 import axios, { AxiosInstance } from "axios"
 
+// const BASE_URL = "http://185.217.131.88:8090"
 const BASE_URL = "https://api.romchi.uz"
 
 const axiosWithoutToken: AxiosInstance = axios.create({
