@@ -55,13 +55,13 @@ function App() {
   }
 
   function deleteAccount() {
-    if (confirm("Rostdan ham akkauntni o`chirmoqchimisiz")) {
+    if (confirm("Are you sure to delete your account")) {
       deleteUserAccount()
         .then(response => {
           alert(response.massage)
         })
         .catch(() => {
-          alert("Nomalum xatolik birozdan so`ng urunib ko`ring")
+          alert("Something went wrong please try again later")
         })
     }
   }
